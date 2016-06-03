@@ -22,10 +22,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="java8" />
         <module name="mavenTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="java8" target="1.8" />
       <module name="mavenTest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

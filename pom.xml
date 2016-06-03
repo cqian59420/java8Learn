@@ -64,15 +64,19 @@
                     <configLocation>config/sun_checks.xml</configLocation>
                 </configuration>
             </plugin>
-            
-<!--            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compire-plugin</artifactId>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <target>1.8</target>
-                    <source>1.8</source>
+                    <target>
+                        1.8
+                    </target>
+                    <source>
+                        1.8
+                    </source>
                 </configuration>
-            </plugin>-->
+            </plugin>
+
         </plugins>
     </reporting>
 </project>
